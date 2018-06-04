@@ -42,4 +42,5 @@ y_pred = model_2.predict(x_test)
 print(accuracy_score(y_pred, y_test))
 
 # TODO: Print the confusion matrix
-print(.....)
+form sklearn.metrics import confusion_matrix
+print(confusion_matrix(y_test, y_pred)
